@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@1,600&family=Laila&family=Nunito:ital,wght@1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+*{
+    background-color:#5C3D2E;
+    font-family: 'Georama', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+body{
+    background-color:#5C3D2E;
+    font-family: 'Georama', sans-serif;
+    color:#211717;
+
+}
+h1{
+    text-align: center;
+
+}

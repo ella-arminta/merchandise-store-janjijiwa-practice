@@ -1,0 +1,17 @@
+BOOTSTRAP
+Bootstrap adalah sebuah library framework CSS yang telah dibuat khusus untuk mengembangkan front end sebuah website. 
+Bootstrap juga dikenal sebagai salah satu framework CSS, HTML, Javascript yang begitu populer di kalangan website 
+developer atau pengembang website.Fungsi dari bootstrap yaitu untuk mengembangkan website agar lebih responsive.
+
+di website saya,saya menggunakan bootstrap untuk membuat navigation bar.Keuntungan dari menggunakan bootstrap
+saya tidak perlu lama mengerjakan navbar karena sudah ada templatenya yang termasuk membuat navbarnya responsive.
+Di bootstrap untuk membuat navbar yang responsive sendiri memerlukan bahasa html css dan javascript dengan line
+code yang sangat panjang. Sehingga dnegan menggunakan bootstrap saya dapat menghemat waktu dalam pembuatan 
+website.
+
+FUNGSI WEBSITE:
+Website yang saya buat yaitu website merchandise shop untuk Janji Jiwa.Halaman pertama berisikan judul dan terdapat
+moto-moto dari janji jiwa. Lalu halaman 2 berupa merchandise apa saja yang dijual. di website saya ada 2 produk,
+tekan salah satu tulisan produk pada menu untuk melihat produk selanjutnya. Lalu pada halaman ke 3 melakukan 
+pembelian merchandise . setelah dibeli maka akan muncul
+ke website lain yang bertuliskan data telah diterima dan tagihan pembayaran dikirim lewat email.

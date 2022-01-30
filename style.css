@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@1,600&family=Laila&family=Nunito:ital,wght@1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+*{
+    
+    font-family: 'Laila', sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+p,h2,h3{
+    overflow-y: hidden;
+}
+
+.navbar{
+    background-color: white;
+    border: 0px;
+    margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav li a {
+    padding-left:100px;
+    padding-right:100px;
+    color:black
+}
+.navbar-default .navbar-nav li a:hover {
+    color:white;
+    background-color: rgb(32, 32, 32);
+    justify-content: center;
+}
+.navbar-default .navbar-nav li a:active {
+    color:white;
+    background-color: gray;
+    justify-content: center;
+}
+.navbar-default .container-fluid .navbar-header img{
+    width:50px;
+    height:50px;
+}
+#rumah {
+    height: 100vh;
+    background:url(img/background3.jpg);
+    background-size: cover;
+    background-position: center;
+    top:0px;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.container {
+    max-width:1170px;
+    margin:auto;
+    width:100%;
+    z-index: 2;
+    overflow-y:hidden;
+}
+#hitam{
+    position: absolute;
+    top:0px;
+    background-color: hsla(0,0%,0%,0.5);
+    z-index: 1;
+    width:100vw;
+    height:100vh;
+}
+#rumah .home-text{
+    text-align: center;
+}
+#rumah .home-text h1{
+    font-size: 60px;
+    font-family: 'Georama', sans-serif;
+    overflow-y: hidden;
+    text-shadow:5px 5px #211717;
+    color:white;
+    z-index:2;
+}
+#rumah .home-text p{
+    margin: 0;
+    overflow-y: hidden;
+}
+#rumah .home-text p span{
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    overflow-y: hidden;
+    display: none;
+}
+#rumah .home-text p span.text-in{
+    display: block;
+    animation:textIn .5s ease;
+}
+#rumah .container .row{
+    overflow-y:hidden;
+}
+#rumah button{
+    position: relative;
+    z-index: 7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border: hidden;
+    background-color:transparent;
+    border-radius: 360px;;
+}
+#rumah button span{
+    overflow-y:hidden;
+    color: white;
+    transform: scale(1.5);
+}
+
+.glyphicon {
+    color: white;
+}
+#produk{
+    width:100vw;
+    min-height:100vh;
+    background-color: #5C3D2E;
+    vertical-align: middle;
+    text-align: center;
+}
+#produk h1{
+    font-family: 'Georama', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color:white;
+    padding-bottom:30px;
+    margin-top: 40px;
+}
+#produk img{
+    width:300px;
+    height:300px;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+.img-ut{
+    display: inline-block;
+    margin:auto;
+    vertical-align: middle;
+}
+#produk .deskripsi{
+    width:300px;
+    height:300px;
+    display: inline-block;
+    background: #140e0e;
+    color:white;
+    padding:10px;
+    vertical-align: middle;
+}
+#produk .menubar{
+    display:block;
+    background:#211717 ;
+    border-radius: 60px;
+    width:500px;
+    justify-content:space-between;
+    top:50px;
+    margin:auto;
+    margin-top: 30px;
+}
+#produk .menubar h3,#produk .menubar h2{
+    display: inline-block;
+    padding-left:10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+#produk .menubar h2{
+    color:white;
+}
+#produk .menubar h2:hover{
+    cursor: default;
+}
+#produk .menubar h3{
+    background-color:#5C3D2E;
+    border-radius: 60px;;
+    color:white;
+}
+#produk .menubar h3:hover{
+    cursor: pointer;
+}
+#produk .menubar .active{
+    background-color: white;
+    color: #211717;
+}
+.off{
+    display:none;
+}
+/*halaman 2 selesai*/
+#beli{
+    width:100vw;
+    min-height:100vh;
+    background-color: #1d1515;
+    text-align: center;
+    margin:auto;
+}
+#beli h1{
+    font-family: 'Georama', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color:white;
+    padding-bottom:30px;
+    margin-top: 40px;
+}
+form{
+    background-color: #5C3D2E;
+    display: block;
+    text-align: center;
+    color:white;
+    width:500px;
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Laila', sans-serif;
+    padding:40px 40px 40px 40px ;
+    border-radius: 20px;
+}
+form .form-grup{
+    display: block;
+    align-self: center;
+    justify-self: center;
+    color:black;
+    background-color: transparent;
+}
+
+form select{
+    display: block;
+    align-self: center;
+    justify-self: center;
+    color:white;
+    margin: auto;
+    background-color: transparent;
+    width:300px;
+    margin-bottom:40px;
+    margin-top:7px;
+    border:none;
+    border-bottom: 3px solid #211717;
+}
+form option{
+    background-color: #211717;
+    color:white;
+}
+#beli input{
+    display: block;
+    align-self: center;
+    justify-self: center;
+    margin: auto;
+    background-color: transparent;
+    border:none;
+    border-bottom: 3px solid #211717;
+    width: 300px;
+    margin-bottom:40px;
+    margin-top: 5px;
+}
+#beli input::placeholder{
+    color:#a58271;
+}
+#beli button{
+    background-color: #211717;
+    color: aliceblue;
+    border: none;
+    border-radius: 60px;
+    font-size: 22px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100px;
+    margin-top:10px;
+}
+#beli form .label{
+    font-size: 22px;
+    color:#211717;
+    overflow-x: hidden;
+    
+}
+
+
+@keyframes textIn{
+    0% {
+        transform:translateY(100%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+@media(max-width:550px){
+    #rumah .home-text h1{
+        font-size:40px;
+    }
+    #rumah .home-text p span{
+        font-size: 20px;
+    }
+    #produk .menubar{
+        width:300px;
+        font-size:12px;
+        margin-bottom: 30px;
+    }
+    #beli form{
+        width:300px;
+    }
+    #beli input{
+        width:200px;
+    }
+    #beli select{
+        width:200px;
+    }
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) { 
+    #produk h1{
+        font-size: 90px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    #produk img{
+        width:400px;
+        height:400px;
+    }
+    #produk .deskripsi {
+        width: 400px;
+        height: 400px;
+        font-size: 30px;
+    }
+    #produk h2{
+        font-size:1.5em;
+    }
+    .img-ut {
+        margin-top: 80px;
+    }
+    #produk .menubar{
+        width:700px;
+        margin-top: 150px;
+        margin-bottom:100px
+    }
+    #produk .menubar h2 {
+        font-size: 60px;
+    }
+    #produk .menubar h3 {
+    font-size: 50px;
+    margin: 20px;
+    }
+    #beli h1{
+    font-size: 90px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+ }
+    #beli form{
+        font-size:45px;
+        width:600px;
+    }
+    #beli form .label{
+        font-size: 47px;
+    }
+    #beli button{
+        font-size:45px;
+        width:200px;
+    }
+    #beli input{
+        width:400px;
+    }
+    #beli select{
+        width:400px;
+    }
+    #beli form select option{
+        font-size:30px;
+        width:200px;
+        
+    }
+  }
